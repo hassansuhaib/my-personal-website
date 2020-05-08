@@ -1,0 +1,113 @@
+/* Global Styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0D1219;
+    color: rgba(255, 255, 255, 1);
+}
+
+ul {
+    list-style: none;
+}
+
+p, li {
+    font-size: 20px;
+    line-height: 1.75rem;
+}
+
+/* Navbar Styling */
+
+nav {
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-links a::after {
+    content: '';
+    top: 0;
+    left: 0;
+    transform: translateY(10px);
+    transition: transform 0.3s ease;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+
+.nav-links a:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Header Styling */
+
+#heading {
+    font-size: 60px;
+}
+
+.banner {
+    margin-top: 50px;
+    padding: 20px 200px;
+}
+
+/* Main Styling */
+
+main {
+    padding: 20px 200px;
+}
+
+/* All Section */
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Section: About Me */
+
+#about-me {
+    margin-top: 20px;
+}
+
+#technologies {
+    margin-top: 40px;
+}
+
+#social {
+    margin-top: 40px;
+}
+
+/* Section: Technologies */
+
+.learning {
+    margin-bottom: 40px;
+}
+
+/* Section: Social */
+
+.contact {
+    margin-top: 40px;
+}
+
+/* Footer Styling */
+
+footer {
+    text-align: center;
+    padding: 20px 200px;
+}
