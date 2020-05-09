@@ -21,7 +21,7 @@ p, li {
 /* Navbar Styling */
 
 nav {
-    padding: 20px 200px;
+    padding: 20px 250px;
     display: flex;
     justify-content: space-between;
 }
@@ -64,13 +64,13 @@ nav a {
 
 .banner {
     margin-top: 50px;
-    padding: 20px 200px;
+    padding: 20px 250px;
 }
 
 /* Main Styling */
 
 main {
-    padding: 20px 200px;
+    padding: 20px 250px;
 }
 
 /* All Section */
@@ -83,6 +83,7 @@ section h2 {
 
 #about-me {
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 #technologies {
@@ -96,8 +97,37 @@ section h2 {
 /* Section: Technologies */
 
 .learning {
-    margin-bottom: 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.plan-to-learn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 80%;
+}
+
+svg {
+    display: inline-block;
+    width: 50px;
+    margin: 0px auto;
+}
+
+.spacing-svgs {
+    margin-bottom: 40px;
+    padding: 0 10px;
+    text-align: center;
+    width: 120px;
+}
+
+.stack-name {
+    padding: 10px 0;
+}
+
+/* color fill for next
 
 /* Section: Social */
 
@@ -105,9 +135,20 @@ section h2 {
     margin-top: 40px;
 }
 
+i {
+    font-size: 50px;
+    padding: 0 25px;
+}
+
+.icons-fm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Footer Styling */
 
 footer {
     text-align: center;
     padding: 20px 200px;
+    margin-top: 40px;
 }
