@@ -20,8 +20,18 @@ p, li {
 
 /* Navbar Styling */
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    align-self: center;
+    width: 70%;
+}
+
 nav {
-    padding: 20px 250px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -63,14 +73,17 @@ nav a {
 }
 
 .banner {
+    display: flex;
+    justify-content: flex-start;
     margin-top: 50px;
-    padding: 20px 250px;
 }
 
 /* Main Styling */
 
 main {
-    padding: 20px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* All Section */
@@ -82,31 +95,33 @@ section h2 {
 /* Section: About Me */
 
 #about-me {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 80px;
 }
 
-#technologies {
-    margin-top: 40px;
-}
-
-#social {
-    margin-top: 40px;
+#about-para {
+    margin-top: 30px;
 }
 
 /* Section: Technologies */
 
+#technologies {
+    margin-top: 80px;
+}
+
 .learning {
-    padding-top: 20px;
-    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.part-II {
+    margin-top: 30px;
 }
 
 .plan-to-learn {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 80%;
 }
 
@@ -127,12 +142,14 @@ svg {
     padding: 10px 0;
 }
 
-/* color fill for next
-
 /* Section: Social */
 
+#social {
+    margin-top: 30px;
+}
+
 .contact {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 i {
@@ -143,12 +160,24 @@ i {
 .icons-fm {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 /* Footer Styling */
 
 footer {
     text-align: center;
-    padding: 20px 200px;
+    padding: 40px 0;
     margin-top: 40px;
+}
+
+/* Large Laptops */
+
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        width: 60%;
+    }
+    * {
+        color: red;
+    }
 }
