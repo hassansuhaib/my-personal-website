@@ -165,6 +165,14 @@ i {
     margin-top: 30px;
 }
 
+#twitter {
+    color: #1DA1F2;
+}
+
+#linkedin {
+    color: #2867b2;
+}
+
 #email {
     font-size: 18px;
 }
@@ -251,7 +259,7 @@ footer {
         font-size: 40px;
         padding: 0;
     }
-    .use-content{
+    .use-content {
         line-height: 2rem;
     }
 }
