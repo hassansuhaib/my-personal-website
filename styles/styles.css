@@ -27,7 +27,7 @@ body {
 
 .main-content {
     align-self: center;
-    width: 70%;
+    width: 1000px;
 }
 
 nav {
@@ -69,7 +69,8 @@ nav a {
 /* Header Styling */
 
 #heading {
-    font-size: 60px;
+    font-size: 80px;
+    padding: 40px 0;
 }
 
 .banner {
@@ -96,6 +97,7 @@ section h2 {
 
 #about-me {
     margin-top: 80px;
+    width: 100%;
 }
 
 #about-para {
@@ -111,18 +113,18 @@ section h2 {
 .learning {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .part-II {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .plan-to-learn {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    width: 80%;
+    width: 100%;
 }
 
 svg {
@@ -163,6 +165,10 @@ i {
     margin-top: 30px;
 }
 
+#email {
+    font-size: 18px;
+}
+
 /* Footer Styling */
 
 footer {
@@ -171,13 +177,81 @@ footer {
     margin-top: 40px;
 }
 
-/* Large Laptops */
+#footer-content {
+    font-size: 15px;
+}
+
+/* "Uses.html" specific styling */
+
+#use-heading {
+    font-size: 60px;
+}
+
+.use-top {
+    padding: 50px 0;
+}
+
+.use-content h2 {
+    font-size: 40px;
+}
+
+.use-content h3 {
+    font-size: 25px;
+}
+
+.name-item {
+    margin-top: 30px;
+}
+
+.software {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hardware {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
 
 @media only screen and (max-width: 1200px) {
     .main-content {
-        width: 60%;
+        width: 800px;
     }
-    * {
-        color: red;
+    #heading {
+        font-size: 60px;
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main-content {
+        width: 600px;
+    }
+    #heading {
+        font-size: 60px;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        width: 500px;
+    }
+    #heading {
+        font-size: 40px;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        width: 90%;
+    }
+    #heading {
+        font-size: 40px;
+        padding: 0;
+    }
+    .use-content{
+        line-height: 2rem;
     }
 }
