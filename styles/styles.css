@@ -150,7 +150,7 @@ svg {
     margin-top: 30px;
 }
 
-.contact {
+.contact, .hire {
     margin-top: 50px;
 }
 
@@ -177,6 +177,9 @@ i {
     font-size: 18px;
 }
 
+#fiver-logo {
+    padding: 0 25px;
+}
 /* Footer Styling */
 
 footer {
