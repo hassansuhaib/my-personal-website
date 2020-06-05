@@ -18,6 +18,14 @@ p, li {
     line-height: 1.75rem;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 /* Navbar Styling */
 
 body {
@@ -27,7 +35,7 @@ body {
 
 .main-content {
     align-self: center;
-    width: 1000px;
+    width: 800px;
 }
 
 nav {
@@ -64,6 +72,12 @@ nav a {
 .nav-links a:hover::after {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* General Classes */
+
+.active {
+    font-weight: 700 !important;
 }
 
 /* Header Styling */
@@ -123,7 +137,7 @@ section h2 {
 .plan-to-learn {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -194,20 +208,12 @@ footer {
 
 /* "Uses.html" specific styling */
 
-#use-heading {
+#use-heading, #blog-heading {
     font-size: 60px;
 }
 
-.use-top {
+.use-top, .blog-top {
     padding: 50px 0;
-}
-
-.use-content h2 {
-    font-size: 40px;
-}
-
-.use-content h3 {
-    font-size: 25px;
 }
 
 .name-item {
@@ -222,6 +228,15 @@ footer {
 .hardware {
     margin-top: 80px;
     margin-bottom: 50px;
+}
+
+/* blog.html */
+.dev h2 {
+    margin: 50px 0;
+}
+
+.article-dev {
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 1200px) {
